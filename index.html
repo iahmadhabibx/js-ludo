@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Ludo</title>
+
+    <link rel="stylesheet" href="./assets//styles.css">
+</head>
+
+<body>
+    <div class="ludo-container">
+        <div class="row">
+            <div class="line left-250"></div>
+            <div class="line right-250"></div>
+            <div class="line-row top-250"></div>
+
+            <div class="houses">
+                <div class="box reds">
+                    <span class="pawns-wrapper red-wrapper"></span>
+                </div>
+            </div>
+
+            <div class="houses">
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box yellows"></div>
+                    <div class="inner-box yellows"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box yellows"></div>
+                    <div class="inner-box yellows"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box yellows"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box yellows"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box yellows"></div>
+                    <div class="inner-box"></div>
+                </div>
+            </div>
+
+            <div class="houses">
+                <div class="box yellows float-right">
+                    <span class="pawns-wrapper yellow-wrapper"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row h-250">
+            <div class="line left-250"></div>
+            <div class="line right-250"></div>
+
+            <div class="houses invert">
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box reds"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box reds"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box reds"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box reds"></div>
+                    <div class="inner-box reds"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box reds"></div>
+                    <div class="inner-box reds"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box"></div>
+                    <div class="inner-box"></div>
+                </div>
+            </div>
+
+            <div class="houses">
+                <div class="triangle t-1"></div>
+                <div class="triangle t-2"></div>
+                <div class="triangle t-3"></div>
+                <div class="triangle t-4"></div>
+            </div>
+
+            <div class="houses invert">
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box blues"></div>
+                    <div class="inner-box blues"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box blues"></div>
+                    <div class="inner-box blues"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box blues"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box blues"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box blues"></div>
+                    <div class="inner-box"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="line left-250"></div>
+            <div class="line right-250"></div>
+            <div class="line-row"></div>
+
+            <div class="houses">
+                <div class="box greens pos-abs bottom-0">
+                    <span class="pawns-wrapper  green-wrapper"></span>
+                </div>
+            </div>
+            <div class="houses">
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box greens"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box greens"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box greens"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box greens"></div>
+                    <div class="inner-box greens"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box greens"></div>
+                    <div class="inner-box greens"></div>
+                    <div class="inner-box"></div>
+                </div>
+                <div class="box-row">
+                    <div class="inner-box"></div>
+                    <div class="inner-box"></div>
+                    <div class="inner-box"></div>
+                </div>
+            </div>
+
+            <div class="houses">
+                <div class="box blues pos-abs bottom-0 right-0">
+                    <span class="pawns-wrapper blue-wrapper"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
