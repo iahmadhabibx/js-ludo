@@ -217,3 +217,18 @@ body {
     justify-content: center;
     border: 1px solid #ce8a8a;
 }
+.dice-number {
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.spin {
+    animation: spinning 1s linear infinite;
+}
+@keyframes spinning {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(350deg);
+    }
+}
