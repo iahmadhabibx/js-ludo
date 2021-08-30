@@ -3,10 +3,10 @@ let reds = document.querySelector(".red-wrapper")
 let yellows = document.querySelector(".yellow-wrapper")
 let greens = document.querySelector(".green-wrapper")
 
-createPawn("red-pawns", 4, reds);
-createPawn("blue-pawns", 4, blues);
-createPawn("green-pawns", 4, greens);
-createPawn("yellow-pawns", 4, yellows);
+createPawn("reds-pawn", 4, reds);
+createPawn("blues-pawn", 4, blues);
+createPawn("greens-pawn", 4, greens);
+createPawn("yellows-pawn", 4, yellows);
 
 function createPawn(cssClass, length, parentElem) {
     let collection = ``;

@@ -26,6 +26,11 @@ body {
 .h-250 {
     height: 250px;
 }
+
+.noPointer {
+    pointer-events: none;
+}
+
 /*################ LUDO CANVAS ##############*/
 
 .ludo-container {
@@ -41,11 +46,13 @@ body {
     flex-direction: row;
     position: relative;
 }
+
 .houses {
     width: 250px;
     height: 250px;
     position: relative;
 }
+
 .box {
     height: 250px;
     width: 250px;
@@ -53,18 +60,23 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .float-right {
     float: right;
 }
+
 .pos-abs {
     position: absolute;
 }
+
 .bottom-0 {
     bottom: 0;
 }
+
 .right-0 {
     right: 0;
 }
+
 .reds {
     background-color: var(--color-red);
 }
@@ -87,30 +99,37 @@ body {
     background-color: #4d4d4d;
     position: absolute;
 }
+
 .line-row {
     height: 4px;
     width: 100%;
     background-color: #4d4d4d;
     position: absolute;
 }
+
 .left-250 {
     left: 250px;
 }
+
 .right-250 {
     right: 250px;
 }
+
 .top-250 {
     top: 250px;
 }
+
 .triangle {
     width: 0;
     height: 0;
 }
+
 .triangle.t-1 {
     border-left: 125px solid transparent;
     border-right: 125px solid transparent;
     border-top: 125px solid var(--color-yellow);
 }
+
 .triangle.t-1 {
     border-left: 125px solid transparent;
     border-right: 125px solid transparent;
@@ -125,6 +144,7 @@ body {
     border-bottom: 125px solid transparent;
     border-left: 125px solid var(--color-red);
 }
+
 .triangle.t-4 {
     position: absolute;
     top: 0;
@@ -140,9 +160,11 @@ body {
     display: flex;
     flex-direction: row;
 }
+
 .houses.invert {
     transform: rotate(90deg);
 }
+
 .inner-box {
     border: 1px solid #4d4d4d;
     width: 100%;
@@ -164,20 +186,23 @@ body {
     width: auto;
     cursor: pointer;
 }
+.small {
+    height: 40px !important;
+}
 
-.red-pawns {
+.reds-pawn {
     fill: var(--pawn-red);
 }
 
-.green-pawns {
+.greens-pawn {
     fill: var(--pawn-green);
 }
 
-.blue-pawns {
+.blues-pawn {
     fill: var(--pawn-blue);
 }
 
-.yellow-pawns {
+.yellows-pawn {
     fill: var(--pawn-yellow);
 }
 
@@ -218,13 +243,20 @@ body {
     justify-content: center;
     border: 1px solid #ce8a8a;
 }
+
 .dice-number {
     font-size: 60px;
     font-family: sans-serif;
 }
+
 .spin {
-    animation: spinning 1s linear infinite;
+    animation: spinning 0.8s linear infinite;
 }
+
+.selected {
+    border: 10px solid #b3b3ec;
+}
+
 @keyframes spinning {
     from {
         transform: rotate(0deg);
