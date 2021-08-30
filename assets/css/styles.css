@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 
 .h-250 {
@@ -31,7 +32,10 @@ body {
     width: 750px;
     height: 750px;
     background-color: #fff;
+    display: inline-block;
+    vertical-align: middle;
 }
+
 .row {
     display: flex;
     flex-direction: row;
@@ -174,4 +178,42 @@ body {
 
 .yellow-pawns {
     fill: var(--pawn-yellow);
+}
+
+/*################ DICE ##############*/
+
+.game-stats {
+    justify-content: center;
+    position: absolute;
+    right: 200px;
+    top: 10px;
+}
+
+.dice-roll {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.roll-btn {
+    cursor: pointer;
+    width: 100px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: #4aec97;
+    color: #Fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    border-radius: 14px;
+    background-color: #fbdbdb;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ce8a8a;
 }
