@@ -162,6 +162,7 @@ body {
 .pawns {
     height: 70px;
     width: auto;
+    cursor: pointer;
 }
 
 .red-pawns {
